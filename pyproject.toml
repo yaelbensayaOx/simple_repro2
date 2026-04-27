@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "simple-repro"
+version = "0.1.0"
+description = "PR-mismatch repro for OXDEV-67183 — strict Python constraint blocks manifest fix, lock-only update"
+authors = ["Yael <yael.bensaya@ox.security>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mlflow = ">=2.21.0,<3.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
